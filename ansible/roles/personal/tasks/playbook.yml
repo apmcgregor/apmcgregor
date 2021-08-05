@@ -1,0 +1,24 @@
+---
+# Tasks for personal
+
+- name: Add git shortcuts to 
+
+- name: Add prompt shortener to .bashrc file
+  lineinfile:
+    # Added prompt shortening 20210423
+    PS1="${PS1//\\w/\\W}"
+
+- name: Copy .inputrc file to ~
+
+- name: Add tmux
+
+- name: Add scripts and scripts folder
+
+- name: Register scripts in .bashrc file
+
+- name: Install git
+  apt:
+    name: git
+    present: yes
+
+- name: Copy .gitconfig file to ~
