@@ -1,3 +1,25 @@
 ---
 
+- name:
+  hosts: localhost
+  roles:
+    - personal
 
+  tasks:
+    
+    - name: Add git shortcuts to 
+
+    - name: Add bash auto-fill .inputrc file
+      lineinfile:
+        # Added prompt shortening 20210423
+        PS1="${PS1//\\w/\\W}"
+
+    - name: Add tmux
+
+    - name: Add scripts and scripts folder
+
+    - name: Register scripts in .bashrc file
+
+    - name: Install git
+
+    - name: Copy .gitconfig file
